@@ -29,7 +29,6 @@ class TodoList extends Component {
         const newTasks = this.state.tasks.filter(t => {
             return t.id !== id
         }) 
-        console.log('%%%%%%%%%%%', newTasks)
         this.setState({tasks: newTasks})
     }
 
