@@ -25,7 +25,6 @@ class TodoList extends Component {
     }
 
     remove(id){
-        console.log(id)
         const newTasks = this.state.tasks.filter(t => {
             return t.id !== id
         }) 
