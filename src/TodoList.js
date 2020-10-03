@@ -42,7 +42,6 @@ class TodoList extends Component {
     }
 
     componentWillUpdate(prevState, prevProps){
-        console.log('IN TODO LIST');
         console.log(prevState)
         console.log(prevProps)
     }
