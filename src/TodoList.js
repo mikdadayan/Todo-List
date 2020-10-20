@@ -42,7 +42,7 @@ class TodoList extends Component {
     }
 
     componentWillUpdate(prevState, prevProps){
-        console.log(prevState)
+        console.log(prevProps)
         console.log(prevProps)
     }
 
