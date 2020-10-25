@@ -53,7 +53,7 @@ class Todo extends Component {
     }
 
     componentWillUpdate(){
-        console.log("TODO COMPONENT WILL UPDATE!")
+        console.log("COMPONENT WILL UPDATE!")
     }
 
     render(){
